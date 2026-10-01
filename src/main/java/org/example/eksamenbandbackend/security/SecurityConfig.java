@@ -66,6 +66,9 @@ public class SecurityConfig {
         config.setAllowedOriginPatterns(List.of(
                 "http://localhost:*",
                 "http://127.0.0.1:*",
+                "https://stygband.dk",
+                "https://www.stygband.dk",
+                // Old domain; it now redirects to stygband.dk.
                 "https://stugg.dk",
                 "https://www.stugg.dk"));
         // Permit the HTTP methods used by the API.
